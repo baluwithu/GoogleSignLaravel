@@ -36,8 +36,8 @@ return [
     ],
 
     'google' => [
-        'client_id' => '526424464962-r6dd1vr2vehar1fjjn23ilvvp3ig176p.apps.googleusercontent.com',
-        'client_secret' => 'jfV1VCID5Kb899_3gDWTPqNQ',
+        'client_id' => 'client_id',
+        'client_secret' => 'client_secret',
         'redirect' => 'http://localhost/googleLogin/public/auth/google/callback',
     ],
 
