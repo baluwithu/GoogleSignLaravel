@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('google', function () {
-    return view('googleAuth');
+    return view('auth.login');
 });
     
 Route::get('auth/google', 'Auth\LoginController@redirectToGoogle');
